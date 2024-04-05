@@ -1,0 +1,47 @@
+<div class="product-list">
+    <h1> All Product list</h1>
+    <p class="p_message">{{productMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                
+                <th>Name <fa-icon style="color: #d1160f; padding-left:20px;height: 50px;"  [icon]="sort" (click)="sortbyName()"></fa-icon></th>
+                <th>Price <fa-icon style="color: #d1160f; padding-left:20px"  [icon]="sort" (click)="sortbyprice()"></fa-icon> </th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr *ngFor="let item of productList" [ngStyle]="{'background-color': (item.price >= 5000 ? '#ADFF2F' : 'white')}">
+
+             <td><img src="{{item.image}}" alt=" sumsung image"/></td>
+            <td>{{item.name}}</td>  
+            <td>{{item.price}}</td>
+            <td>{{item.color}}</td> 
+            <td>{{item.category}}</td>
+            <td [ngStyle]="{'background-color': hasSpecialCharacters(item.description ) ? '#FFDEAD' : ''}"> {{item.description}}</td>
+            <td>
+                <fa-icon [ngStyle]="{'color':'red'}"   (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                <fa-icon [ngStyle]="{'color':'blue'}" class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}" [icon]="editIcon"></fa-icon>
+                
+         
+            </tr> -->
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}" alt="sumsung image"/></td>
+                <td >{{item.name}}</td>  
+                <td [ngStyle]="{'background-color': (item.price >= 5000 ? '#ADFF2F' : 'white')}">{{item.price}}</td>
+                <td >{{item.color}}</td> 
+                <td>{{item.category}}</td>
+                <td [ngStyle]="{'background-color': hasSpecialCharacters(item.description) ? '#FFDEAD' : ''}">{{item.description}}</td>
+                <td>
+                    <fa-icon [ngStyle]="{'color':'red'}" (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                    <fa-icon [ngStyle]="{'color':'blue'}" class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}" [icon]="editIcon"></fa-icon>
+                </td>
+            </tr>    
+            
+        </tbody>
+    </table>
+</div>

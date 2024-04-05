@@ -1,0 +1,125 @@
+/* .checkout h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.shipping-address h3
+{
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+} */
+
+.checkout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.checkout h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.shipping-address {
+    flex: 0 0 70%;
+}
+
+.shipping-address h3 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.common-form {
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    padding:15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #28a745; /* Change color on focus */
+}
+
+/* Style for invalid input */
+.form-input.ng-invalid {
+    border-color: #dc3545;
+}
+
+/* Style for valid input */
+.form-input.ng-valid {
+    border-color: #28a745;
+}
+
+/* Style for error message */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.max-width
+{
+    width: 100%;
+}
+.massage-p
+{
+    color: #28a745;
+}
+.invalid-input
+{
+    color: red;
+}
+
+.col-sm-5 {
+    background-color: #f9f9f9;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 90px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+h4 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+b {
+    color: #ff5722;
+}
+
+/* Adding animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.wow {
+    animation: fadeIn 1s ease-in-out;
+}

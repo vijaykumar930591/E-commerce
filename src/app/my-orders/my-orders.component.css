@@ -1,0 +1,61 @@
+.my-orders {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.my-orders h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Adding a border between rows */
+    padding-bottom: 10px;
+}
+
+.col-sm-2 {
+    flex: 0 0 calc(20% - 10px); /* Adjusting width for each column */
+}
+
+.col-sm-2 span {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style for last column (Action) */
+.col-sm-2:last-child {
+    text-align: center;
+}
+
+/* Style for Action buttons */
+.action-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+.my-orders .order-img
+{
+width: 100px;
+
+}
+.order-data
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}

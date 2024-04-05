@@ -1,0 +1,63 @@
+
+
+.seller-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.common-form {
+    width: 468px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.invalid-input {
+    color: red;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-toggle-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Styles for SignUp section */
+.sign-up h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for Login section */
+.Login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-p {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="p_message">
+        <h1 class="h1">Update Products</h1>
+        <p>{{productmessage}}</p>
+        <form #update="ngForm" (ngSubmit)="submit(update.value)" class="common-form">
+            <input class="form-control" type="text" name="name" #name="ngModel" placeholder="Enter Product Name"
+                ngModel="{{productdata?.name}}" [class.is-invalid]=" name.touched && name.invalid" required
+                pattern="^(?!\s)[a-zA-Z0-9\s]*$" />
+            <div
+                *ngIf="update.controls['name'].invalid&& (update.controls['name'].dirty || update.controls['name'].touched)">
+                <div class="text-danger"> Please Enter Valid Product Name is required.</div>
+            </div>
+            <br>
+            <input class="form-control" type="text" name="price" #price="ngModel" placeholder="Enter Product Price"
+                ngModel="{{productdata?.price}}" [class.is-invalid]=" price.touched && price.invalid" required
+                pattern="^(?!0+(\.0*)?$)\d+(\.\d+)?$" />
+            <div
+                *ngIf="update.controls['price'].invalid && (update.controls['price'].dirty || update.controls['price'].touched)">
+                <div class="text-danger">Please Enter Valid Product Price is required.</div>
+            </div>
+            <br>
+            <br>
+            <input class="form-control" type="text" name="color" #color="ngModel" placeholder="Enter Product Color"
+                ngModel="{{productdata?.color}}" [class.is-invalid]="color.touched && color.invalid" required
+                pattern="^(?!\s)[a-zA-Z\s]*$" />
+            <div
+                *ngIf="update.controls['color'].invalid && (update.controls['color'].dirty || update.controls['color'].touched)">
+                <div class="text-danger">Please Enter Valid Product Color is required.</div>
+            </div>
+            <br>
+            <input class="form-control" type="text" name="category" #category="ngModel"
+                placeholder="Enter Product Category" ngModel="{{productdata?.category}}"
+                [class.is-invalid]=" category.touched && category.invalid" required pattern="^(?!\s)[a-zA-Z\s]*$" />
+            <div
+                *ngIf="update.controls['category'].invalid && (update.controls['category'].dirty || update.controls['category'].touched)">
+                <div class="text-danger">Please Enter Valid Product Category is required.</div>
+            </div>
+            <br>
+            <textarea class="form-control" type="text" name="description" #description="ngModel"
+                placeholder="Enter Product Description" ngModel="{{productdata?.description}}"
+                [class.is-invalid]=" description.touched && description.invalid" required
+               ></textarea>
+            <div
+                *ngIf="update.controls['description'].invalid && (update.controls['description'].dirty || update.controls['description'].touched)">
+                <div class="text-danger">Please Enter Valid Product Description is required.</div>
+            </div>
+            <br>
+            <input class="form-control" type="text" name="image" #image="ngModel" placeholder="Enter Product Image URL"
+                ngModel="{{productdata?.image}} " [class.is-invalid]="image.touched && image.invalid" required 
+                pattern="^(https?|ftp):\/\/[^\s/$?#].*$"  />
+             
+                <!--   pattern="[^\\s]+(.*?)\\.(jpg|jpeg|png|gif|JPG|JPEG|PNG|GIF)$"/> -->
+                <!--  pattern="^(https?|ftp):\/\/[^\s/$.?#]+\.(jpg|jpeg|png)$"-->
+                <!-- pattern="^(https?|ftp):\/\/[^\s/$.?#].*$" /> -->
+            <div *ngIf="update.controls['image'].invalid && (update.controls['image'].dirty|| update.controls['image'].touched)">
+                <div class="text-danger">Please Enter Valid Product Image URL is required.</div>
+            </div>
+            <br>
+            <button [disabled]="name.invalid || price.invalid|| color.invalid|| category.invalid  || description.invalid ||image.invalid"
+                class="form-button btn btn-primary">
+                Update Product
+            </button>
+
+        </form>
+
+    </div>
+</div> 
+ 

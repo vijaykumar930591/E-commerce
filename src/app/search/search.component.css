@@ -1,0 +1,39 @@
+
+.search-item {
+    display: flex; 
+    justify-content:flex-end; 
+    align-items: center;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(223, 8, 8, 0.1); 
+    overflow: hidden; 
+
+}
+
+.search-item img {
+    max-width: 150%; 
+    height: 200px;
+    padding-left: 200px;
+    width:600px;
+}
+
+.search-item .details {
+  
+    padding-left: 280px;
+
+}
+
+.search-item h6 {
+    margin-top: 0;
+}
+
+.search-item p {
+    margin-top: 5px; 
+    line-height: 1.4; 
+    
+}
+
+.search-item p b {
+    color: #007bff; 
+}
+

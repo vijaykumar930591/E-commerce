@@ -1,0 +1,39 @@
+<div class="my-orders">
+    <h1> My Orders</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <span>Order</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Action</span>
+        </div>
+    </div>
+    <div class="row " *ngFor="let order of orderData">
+        <div class="col-sm-2">
+           <img class="order-img" src="https://as1.ftcdn.net/v2/jpg/04/62/11/02/1000_F_462110289_68WfKQOodooj0cPgdsGg0HdFpJa4dXqN.jpg" alt="">
+        </div>
+        <div class="col-sm-2">
+            <span>#{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.totalprice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>In Process</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button class="btn btn-outline-danger" (click)="cancelOrder(order.id)">Cancel Order</button></span>
+        </div>
+    </div>
+   
+    
+</div>

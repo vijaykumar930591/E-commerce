@@ -1,0 +1,35 @@
+<div class="row product-details" *ngIf="productData">
+    <div class="col-sm-6">
+        <!-- <img class="product-image" src="{{productData.image}}"> -->
+        <a href="https://www.flipkart.com/search?q={{productData.name}}&sid=tyy%2C4io&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=smartphone%7CMobiles&requestId=032fea04-6414-44a0-b53b-e0c4c9bd728a&as-backfill=on"
+    target="_blank">
+    <img src="{{ productData.image }}" alt="{{ productData.name }}" class="product-image">
+  </a>
+    </div>
+    <div class="col-sm-6">
+        <div class="sn">
+            <h1>Product:{{productData.name}}</h1>
+            <h3>Price: {{productData.price}}</h3>
+            <h2>
+                Color: {{productData.color}}
+                
+            </h2>
+            <h6>Category : {{productData.category}}</h6>
+            <h6>Description : {{productData.description}}</h6>
+            
+             <button *ngIf="!inCart" class="btn btn-outline-success" (click)="addToCart()">Add To Cart</button>
+             <button *ngIf="inCart" class="btn btn-outline-danger" (click)="removeFromCart(productData.id)">Remove From Cart</button>
+            &nbsp;&nbsp;&nbsp;  &nbsp;
+            <button class="btn btn-outline-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Buy Now</button>
+          
+            <div class="quantity-group">
+                <button (click)="handleQuantity('min')">-</button>
+                <input type="text" value="{{productQuantity}}">
+                <button (click)="handleQuantity('plus')">+</button> 
+                <div>
+                    <h3 >Total Price:{{productData.price}} </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

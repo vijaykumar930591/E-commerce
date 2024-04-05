@@ -1,0 +1,447 @@
+{
+  "seller": [
+    {
+      "id": "bdd4",
+      "name": "vijay",
+      "email": "vijay@seller.com",
+      "password": "123"
+    },
+    {
+      "id": "a2db",
+      "name": "vikash",
+      "email": "vijay1@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1e6b",
+      "name": "vikash",
+      "email": "vijay@seller.com",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "name": "Nike",
+      "price": "1800",
+      "color": "white",
+      "category": "nikes",
+      "description": "this  is very comfortable  shoes",
+      "image": "https://cdn.luxe.digital/media/20230927084701/best-jordans-of-all-time-ranking-list-luxe-digital.jpg    ",
+      "id": "49ad"
+    },
+    {
+      "name": "Samsung galaxy ultra 24",
+      "price": "1000.02023",
+      "color": "black",
+      "category": "Samsung",
+      "description": "this product is very good \n",
+      "image": "https://images.hindustantimes.com/tech/img/2024/01/16/960x540/screen-post-4OJLbIWQ3Uw-unsplash_1703833162375_1705393725375.jpg   ",
+      "id": "c9a4"
+    },
+    {
+      "name": "Samsung s24",
+      "price": "3243.456",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "this product quality is very good ",
+      "image": "https://m-cdn.phonearena.com/images/review/5988-wide-two_1200/Samsung-Galaxy-S24-Ultra-vs-Galaxy-S22-Ultra-two-steps-removed.jpg ",
+      "id": "7925"
+    },
+    {
+      "name": "visdihd12",
+      "price": "123.6562",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "frdsgffdg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEbJEhFbF5kj0r9FpLSHzXdL_AGPpgQ3vbQ&usqp=CAU%22  ",
+      "id": "ea6e"
+    },
+    {
+      "name": "Samsung galaxy",
+      "price": "123.10000",
+      "color": "white",
+      "category": "ewfew",
+      "description": "edwef",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7SLU0SAzIPMzicQ41MH3Jsokfu0mGmnoTA&usqp=CAU ",
+      "id": "3c40"
+    },
+    {
+      "name": "i Phone 11 pro Max",
+      "price": "2000000",
+      "color": "gfb",
+      "category": "mobile   ",
+      "description": "rfhghgf",
+      "image": "https://media.ouest-france.fr/v1/pictures/MjAyMzEwMTQ0N2UwNTRlZmVlMjJjNzMxMGMzZWIxNDM1NGU5MjU?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=284680cded4147f2efe6507833b2073206e765b818d2525bc6056f7ce80110ee",
+      "id": "4f01"
+    },
+    {
+      "name": "Samsung galaxy12",
+      "price": "23.88",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "uy",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/64dfed0098291ef933d8ae23/Day-1---Mobile-World-Congress-2023/960x0.jpg?height=474&width=711&fit=bounds ",
+      "id": "730b"
+    },
+    {
+      "name": "Apple 14pro max",
+      "price": "500.5",
+      "color": "blue",
+      "category": "mobile   ",
+      "description": "Apple product",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH4JJfA86QTVzrwI6wHcluHK2nGB2ZEGNPug&usqp=CAU",
+      "id": "758c"
+    },
+    {
+      "name": "Naruto Itachi",
+      "price": "2799",
+      "color": "red",
+      "category": "branded product",
+      "description": "Official Licensed Naruto High Top Sneakers.",
+      "image": "https://w7.pngwing.com/pngs/895/199/png-transparent-spider-man-heroes-download-with-transparent-background-free-thumbnail.png",
+      "id": "3f9e"
+    },
+    {
+      "id": "13df",
+      "name": "T shirt",
+      "price": "600",
+      "color": "white",
+      "category": "T Shirt",
+      "description": "Shop for Mens Oversized Mystery T-shirt  at The Souled Store.",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1709204833_5789678.jpg?format=webp&w=480&dpr=1.0"
+    },
+    {
+      "id": "1782",
+      "name": "NIKON Z5 Mirrorless Camera 24 200 mm",
+      "price": "5500",
+      "color": "black",
+      "category": "Camera",
+      "description": "Buy NIKON Z5 Mirrorless Camera 24-200 mm online at Flipkart.com",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=90&crop=false"
+    },
+    {
+      "name": "Apple Airpods",
+      "price": "1200",
+      "color": "black",
+      "category": "airpod",
+      "description": "Covered in a special acoustic mesh, an inset microphone in each earbud minimises wind noise when you’re on a call — so your voice is always heard loud and clear.",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1694014871985 ",
+      "id": "4e88"
+    },
+    {
+      "id": "eb1a",
+      "name": "Samsung galaxy",
+      "price": "2000000",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "edssfsf",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH4JJfA86QTVzrwI6wHcluHK2nGB2ZEGNPug&usqp=CAU"
+    },
+    {
+      "id": "da9e",
+      "name": "Samsung galaxy A23",
+      "price": "187000.8",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "This product is very good",
+      "image": "https://m-cdn.phonearena.com/images/review/5988-wide-two_1200/Samsung-Galaxy-S24-Ultra-vs-Galaxy-S22-Ultra-two-steps-removed.jpg",
+      "quantity": 1,
+      "userId": "f783",
+      "productId": "da9e"
+    },
+    {
+      "id": "c9a4",
+      "name": "MacBook",
+      "price": "100002023",
+      "color": "black",
+      "category": "Apple ",
+      "description": "gooddsffds",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/photo_1517336714731_489689fd1ca8_9.jpeg",
+      "quantity": 1,
+      "userId": "f783",
+      "productId": "c9a4"
+    },
+    {
+      "id": "13df",
+      "name": "T shirt",
+      "price": "600",
+      "color": "white",
+      "category": "T Shirt",
+      "description": "Shop for Mens Oversized Mystery T-shirt  at The Souled Store.",
+      "image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1709204833_5789678.jpg?format=webp&w=480&dpr=1.0",
+      "quantity": 1,
+      "userId": "f783",
+      "productId": "13df"
+    },
+    {
+      "id": "7483",
+      "name": "Boat earphone",
+      "price": "1500",
+      "color": "blue",
+      "category": "boat ",
+      "description": "Say goodbye to noise from the outside world and plug into your musical serenity with boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don't have to wait for long while the headsets get charged as it also comes with Fast Charging technology",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_cfeOlmRAUd184hykrHq2aySSR-dbJAtckHijS9GE_CATvvmM7LpHyHJ2saShNx56E3MIWTh_3lRw2YK5ZedS5we8lXZCeYl6BVWphEtnWACnVxE9rNTL"
+    },
+    {
+      "id": "03b5",
+      "name": "Jeans",
+      "price": "15000",
+      "color": "blue",
+      "category": "clothes",
+      "description": "this type of jeans is very comftable ",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2021/05/mensjeans-2048px-4026-2x1-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200"
+    },
+    {
+      "id": "3b0c",
+      "name": "Cap",
+      "price": "500",
+      "color": "gray",
+      "category": "cap",
+      "description": "this product is very good",
+      "image": "https://images-cdn.ubuy.co.in/65a647ec13b39a08516ca95d-croogo-5-panel-hats-cooling-baseball-cap.jpg"
+    },
+    {
+      "name": "Apple iPhone 14",
+      "price": "56000",
+      "color": "blue",
+      "category": "mobile   ",
+      "description": "Bank OfferGet ₹25* instant discount for the 1st Flipkart Order using Flipkart UP",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/9/e/e/-original-imaghx9q5rvcdghy.jpeg?q=70",
+      "id": "b903"
+    },
+    {
+      "id": "a0a6",
+      "name": "Galaxy Watch6 Classic ",
+      "price": "36000",
+      "color": "black",
+      "category": "watch",
+      "description": "One band included. Availability of models and colors may vary by country or carrier. Image simulated. Actual product may differ from the image. Galaxy Watch6 does not include a wall charger. Samsung is trying to eliminate unnecessary waste by prioritising compatibility between product components.",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-watch6-classic-r965-sm-r960nzkains-537406123?$2052_1641_PNG$"
+    },
+    {
+      "id": "15e5",
+      "name": "VERSACE GRECA EXTREME Chronograph Watch for Men",
+      "price": "145000",
+      "color": "golden",
+      "category": "The instruction booklet",
+      "description": "The travel pouch decorated with the iconic Medusa headVersace Watches Categories - Stainless Steel / Brass / Sapphire",
+      "image": "https://lh3.googleusercontent.com/spp/AOgFAqNSqiLHVqsinIcxK-6ru66VugxtLpcdwEu7O2DK6F8G3hq580elf9m8r6W_25ahF2yhDnhJskAv4n3mEE6VrLYWbsDDVY5cHjw3rEM0ssDwR3GrU-vi1mVX_pfxhT3AldwWzE9aQqdpqmdU3YYzIAWw09VvZiwYwAlPwaDoA-Wsc2EfAhLVYw8QGWnc-hoVqwOROlTczw=s512-rw-pd-pc0x00ffffff"
+    }
+  ],
+  "users": [
+    {
+      "id": "5075",
+      "name": "w",
+      "email": "vijay930591@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "f783",
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c3eb",
+      "name": "vk",
+      "email": "vk@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "cart": [
+    {
+      "id": "7483",
+      "name": "Boat earphone",
+      "price": "1500",
+      "color": "blue",
+      "category": "boat ",
+      "description": "Say goodbye to noise from the outside world and plug into your musical serenity with boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don't have to wait for long while the headsets get charged as it also comes with Fast Charging technology",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_cfeOlmRAUd184hykrHq2aySSR-dbJAtckHijS9GE_CATvvmM7LpHyHJ2saShNx56E3MIWTh_3lRw2YK5ZedS5we8lXZCeYl6BVWphEtnWACnVxE9rNTL",
+      "quantity": 1,
+      "productId": "7483",
+      "userId": "f783"
+    },
+    {
+      "id": "03b5",
+      "name": "Jeans",
+      "price": "15000",
+      "color": "blue",
+      "category": "clothes",
+      "description": "this type of jeans is very comftable ",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2021/05/mensjeans-2048px-4026-2x1-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200",
+      "quantity": 1,
+      "productId": "03b5",
+      "userId": "f783"
+    },
+    {
+      "id": "3c40",
+      "name": "Samsung galaxy",
+      "price": "123.10000",
+      "color": "white",
+      "category": "ewfew",
+      "description": "edwef",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7SLU0SAzIPMzicQ41MH3Jsokfu0mGmnoTA&usqp=CAU ",
+      "quantity": 1,
+      "productId": "3c40",
+      "userId": "f783"
+    },
+    {
+      "id": "758c",
+      "name": "Apple 14pro max",
+      "price": "500.5",
+      "color": "blue",
+      "category": "mobile   ",
+      "description": "Apple product",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH4JJfA86QTVzrwI6wHcluHK2nGB2ZEGNPug&usqp=CAU",
+      "quantity": 1,
+      "productId": "758c",
+      "userId": "f783"
+    },
+    {
+      "id": "e324",
+      "name": "Samsung galaxy A22",
+      "price": "187000.8",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "good",
+      "image": "https://images.hindustantimes.com/tech/img/2024/01/16/960x540/screen-post-4OJLbIWQ3Uw-unsplash_1703833162375_1705393725375.jpg ",
+      "quantity": 1,
+      "productId": null,
+      "userId": "f783"
+    },
+    {
+      "id": "c9a4",
+      "name": "MacBook",
+      "price": "100002023",
+      "color": "black",
+      "category": "Apple ",
+      "description": "gooddsffds",
+      "image": "https://images.hindustantimes.com/tech/img/2024/01/16/960x540/screen-post-4OJLbIWQ3Uw-unsplash_1703833162375_1705393725375.jpg ",
+      "quantity": 1,
+      "productId": "c9a4",
+      "userId": "f783"
+    },
+    {
+      "id": "730b",
+      "name": "Samsung galaxy12",
+      "price": "23.88",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "uy",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/64dfed0098291ef933d8ae23/Day-1---Mobile-World-Congress-2023/960x0.jpg?height=474&width=711&fit=bounds ",
+      "quantity": 1,
+      "productId": "730b",
+      "userId": "f783"
+    },
+    {
+      "id": "ea6e",
+      "name": "visdihd12",
+      "price": "123.6562",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "frdsgffdg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEbJEhFbF5kj0r9FpLSHzXdL_AGPpgQ3vbQ&usqp=CAU%22  ",
+      "quantity": 1,
+      "productId": "ea6e",
+      "userId": "f783"
+    },
+    {
+      "id": "7925",
+      "name": "Samsung s24",
+      "price": "3243.456",
+      "color": "white",
+      "category": "mobile   ",
+      "description": "this product quality is very good ",
+      "image": "https://m-cdn.phonearena.com/images/review/5988-wide-two_1200/Samsung-Galaxy-S24-Ultra-vs-Galaxy-S22-Ultra-two-steps-removed.jpg ",
+      "quantity": 1,
+      "productId": "7925",
+      "userId": "f783"
+    },
+    {
+      "id": "3b0c",
+      "name": "Cap",
+      "price": "500",
+      "color": "gray",
+      "category": "cap",
+      "description": "this product is very good",
+      "image": "https://images-cdn.ubuy.co.in/65a647ec13b39a08516ca95d-croogo-5-panel-hats-cooling-baseball-cap.jpg",
+      "quantity": 1,
+      "productId": "3b0c",
+      "userId": "f783"
+    },
+    {
+      "id": "49ad",
+      "name": "Nike",
+      "price": "1800",
+      "color": "white",
+      "category": "nikes",
+      "description": "nike ",
+      "image": "https://cdn.luxe.digital/media/20230927084701/best-jordans-of-all-time-ranking-list-luxe-digital.jpg   ",
+      "quantity": 1,
+      "productId": "49ad",
+      "userId": "f783"
+    },
+    {
+      "id": "c9a4",
+      "name": "Samsung galaxy ultra 24",
+      "price": "1000.02023",
+      "color": "black",
+      "category": "Samsung",
+      "description": "this product is very good \n",
+      "image": "https://images.hindustantimes.com/tech/img/2024/01/16/960x540/screen-post-4OJLbIWQ3Uw-unsplash_1703833162375_1705393725375.jpg   ",
+      "quantity": 1,
+      "productId": "c9a4",
+      "userId": "f783"
+    },
+    {
+      "id": "49ad",
+      "name": "Nike",
+      "price": "1800",
+      "color": "white",
+      "category": "nikes",
+      "description": "this  is very comfortable  shoes",
+      "image": "https://cdn.luxe.digital/media/20230927084701/best-jordans-of-all-time-ranking-list-luxe-digital.jpg    ",
+      "quantity": 1,
+      "productId": "49ad",
+      "userId": "f783"
+    },
+    {
+      "id": "c9a4",
+      "name": "Samsung galaxy ultra 24",
+      "price": "1000.02023",
+      "color": "black",
+      "category": "Samsung",
+      "description": "this product is very good \n",
+      "image": "https://images.hindustantimes.com/tech/img/2024/01/16/960x540/screen-post-4OJLbIWQ3Uw-unsplash_1703833162375_1705393725375.jpg   ",
+      "quantity": 1,
+      "productId": "c9a4",
+      "userId": "f783"
+    }
+  ],
+  "orders": [
+    {
+      "id": "222e",
+      "email": "vijay@seller.com",
+      "address": "noida",
+      "contact": "9305030239232",
+      "totalprice": 72101466430.3124,
+      "userId": "f783"
+    },
+    {
+      "id": "c6ad",
+      "email": "vijay@seller.com",
+      "address": "noida ",
+      "contact": "9305919618",
+      "totalprice": 100210138.39220001,
+      "userId": "f783"
+    },
+    {
+      "id": "a136",
+      "email": "vijay@seller.com",
+      "address": "noida",
+      "contact": "9305919618",
+      "totalprice": 100210138.39220001,
+      "userId": "f783"
+    }
+  ]
+}

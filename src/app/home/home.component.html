@@ -1,0 +1,80 @@
+<ngb-carousel *ngIf="popularProducts">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a routerLink="/details/{{item.id}}"> <img class="product-header-img" src="{{item.image}}"
+          alt="Random first slide" />
+      </a>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{item.name}}</h3>
+      <!-- <p [ngStyle]="{'color':'red'}">{{item.description}}</p> -->
+    </div>
+  </ng-template>
+
+</ngb-carousel>
+
+<div class="product-list-Wrapper">
+  <h1>Trendy Products</h1>
+  <hr>
+</div>
+<!-- <div class="row equal-height-cards">
+  <div class="col-sm-3" *ngFor="let item of trendyProducts">
+    <div class="product-item">
+      <img class="imgset" src="{{item.image}} ">
+
+      <div class="product-details">
+        <h3 class="name-head">Product:{{item.name}}</h3>
+        <div class="product-Price">
+          <h5 [ngStyle]="{'color':'	#0000FF'}">Price: {{item.price}}</h5>
+
+        </div>
+        <div class="product-color">
+          <h4> Color : {{item.color}}</h4>
+          <h5> Category : {{item.category}}</h5>
+          <h6> Description : {{item.description}}</h6>
+        </div>
+        <div class="product-footer sm-2">
+          <button routerLink="/details/{{item.id}}" type="button" class="btn btn-primary">View Details</button>
+           <a routerLink="/details/{{item.id}}">View Details</a> 
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <button type="button" class="btn btn-success" >Add To Cart</button>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts ">
+        <div class="product-item">
+           <a> <img routerLink="/details/{{item.id}}" src="{{item.image}}" alt="Random first slide"></a>
+            <!-- <div class="product-details">
+                <h6 > Product Name:{{item.name}}</h6>
+                <h6>Price:{{item.price}}</h6>
+                <h6>Color:{{item.color}}</h6>
+            </div> -->
+          
+            
+
+            <div class="product-color">
+              <h3 >Product:{{item.name}}</h3>
+              <div class="product-Price">
+                <h5 [ngStyle]="{'color':'	#0000FF'}">Price: {{item.price}}</h5>
+              </div>
+              <h4> Color : {{item.color}}</h4>
+              <h5> Category : {{item.category}}</h5>
+              <h6> Description : {{item.description}}</h6>
+            </div>
+            <div class="product-footer">
+                <!-- <a href="">View Details</a> -->
+                <button type="button" class="btn btn-primary" routerLink="/details/{{item.id}}">View details</button>
+                <!-- <a href="">Add to Cart</a> -->
+                <button type="button" class="btn btn-success" routerLink="/details/{{item.id}}" >Add to Cart</button>
+            </div>
+
+        </div>
+    </div>              
+</div>
+

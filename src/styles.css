@@ -1,0 +1,16 @@
+body
+{
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgba(230, 120, 120, 0.878), rgba(107, 147, 234, 0.85));
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.error-p{
+    color: red ;
+}
+.p_message{
+    color: green;
+}
+ 

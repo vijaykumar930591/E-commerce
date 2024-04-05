@@ -1,0 +1,54 @@
+.cart-page
+{
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.details
+{
+    border: 1px solid #ddd;
+}
+.cart-page h1
+{
+    text-align:center;
+    color: rgb(33, 46, 46);
+    margin-right: 600PX;
+}
+.details img{
+    height: 100px;
+    width: 100px;
+}
+.details ul{
+    padding: 0px;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    list-style-type:none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid solid black  ;
+}
+.sammary
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.sammary h3
+{
+text-align: center;
+}
+.sammary ul{
+    list-style-type: none;
+    padding: 2px;
+    border: 3px solid  hwb(264 90% 8%)
+}
+.sammary ul li 
+{
+    display: flex;
+     justify-content:  space-between;
+}
+.max-width
+{
+    width: 100%;
+}

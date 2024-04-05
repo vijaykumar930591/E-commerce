@@ -1,0 +1,53 @@
+
+
+  <div class="container">
+    <div class="p_message">
+        <h1 class="h1">Add New Products</h1>
+        <p class="p_message">{{addproductMessage}}</p>
+        <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
+
+            <input class="form-control" type="text" name="name" placeholder="Enter Product Name" ngModel required pattern="^(?!\s)[a-zA-Z0-9\s]*$"/> 
+   
+            <!-- Display error message for required validation -->
+            <div *ngIf="addProduct.controls['name'].invalid&& (addProduct.controls['name'].dirty || addProduct.controls['name'].touched)">
+                <div class="text-danger"> Please Enter Valid Product Name is required.</div>
+            </div>
+            <br>
+
+            <input class="form-input form-control" type="text" name="price" placeholder="Enter Product Price" ngModel required pattern="^(?!0+(\.0*)?$)\d+(\.\d+)?$"/>
+            <div *ngIf="addProduct.controls['price'].invalid && (addProduct.controls['price'].dirty || addProduct.controls['price'].touched)">
+                <div class="text-danger">Please Enter Valid  Product Price is required.</div>
+            </div>
+            <br>
+
+            <input class="form-input form-control" type="text" name="color" placeholder="Enter Product Color" ngModel required pattern="^(?!\s)[a-zA-Z0-9\s]*$" />
+            <div *ngIf="addProduct.controls['color'].invalid && (addProduct.controls['color'].dirty || addProduct.controls['color'].touched)">
+                <div class="text-danger">Please Enter Valid Product Color is required.</div>
+            </div>  
+            <br>
+
+            <input class="form-input form-control" type="text" name="category" placeholder="Enter Product Category" ngModel required pattern="^(?!\s)[a-zA-Z\s]*$"/>
+            <div *ngIf="addProduct.controls['category'].invalid && (addProduct.controls['category'].dirty || addProduct.controls['category'].touched)">
+                <div class="text-danger">Please Enter Valid Product Category is required.</div>
+            </div>
+            <br>
+<!-- description
+pattern="^(?!\s)[a-zA-Z0-9\s]*$" -->
+            <textarea class="form-input form-control" name="description" placeholder="Enter Product description" ngModel required pattern=".*"></textarea>
+            <div *ngIf="addProduct.controls['description'].invalid && (addProduct.controls['description'].dirty || addProduct.controls['description'].touched)">
+                <div class="text-danger">Please Enter Valid Product Description is required.</div>
+            </div>
+            <br>
+
+            <input class="form-input form-control" type="text" name="image" placeholder="Enter Product Image Url" ngModel  required 
+            pattern="^(https?|ftp):\/\/[^\s/$?#].*$"/>
+            <!-- ^ (https?|ftp):\/\/[^\s/$.?#].[^\s]*$ -->
+
+            <div *ngIf="addProduct.controls['image'].invalid && (addProduct.controls['image'].dirty || addProduct.controls['image'].touched)">
+                <div class="text-danger">Please Enter Valid Product Image URL is required.</div>
+            </div>
+            <br>
+            <button class="form-button btn btn-primary"  [disabled]="isNameFilled || addProduct.invalid">Add Product</button>
+        </form>
+    </div>
+</div>

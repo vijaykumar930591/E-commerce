@@ -1,0 +1,33 @@
+
+<div class="checkout">
+    <h1>Checkout</h1>
+<p class="massage-p">
+    {{ordermsg}}
+</p>
+    <div class="row">
+    
+        <div class="col-sm-7 shipping-address">
+            <h3>Add Shipping Address</h3>
+            <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
+                <input class="form-input" type="email" ngModel name="email" placeholder="Enter your Email" required #Email="ngModel" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" >
+                <p class="invalid-input" *ngIf="Email.invalid && Email.touched && Email.errors">Please Enter Email</p>
+                <p class="invalid-input" *ngIf="Email.invalid && Email.touched && Email.errors">Please Enter Valid Email</p>
+                
+                <input class="form-input" type="text" ngModel name="address" placeholder="Enter your Address" required #Address="ngModel" pattern="^[a-zA-Z0-9\s]*$">
+                <p class="invalid-input" *ngIf="Address.invalid && Address.touched && Address.errors">Please Enter Address</p>
+                <p class="invalid-input" *ngIf="Address.invalid && Address.touched && Address.errors">Please Enter Valid Address (Alphanumeric characters and spaces only)</p>
+                
+                <input class="form-input" type="tel" ngModel name="contact" placeholder="Enter your contact Details" required #Contact="ngModel" pattern="^\d{10}$">
+                <p class="invalid-input" *ngIf="Contact.invalid && Contact.touched && Contact.errors">Please Enter Contact</p>
+                <p class="invalid-input" *ngIf="Contact.invalid && Contact.touched && Contact.errors">Please Enter Valid Contact (10 digits only)</p>
+                
+                <button class="btn btn-outline-success max-width" [disabled]="orderData.invalid">Order Now</button>
+            </form>
+        </div>
+        
+        <div class="col-sm-5 wow">
+                <h3>Total Amount: {{totalprice}}</h3>
+                <h4>Payment Method :<b>Pay on  delivery</b></h4>
+        </div>  
+    </div>
+</div>

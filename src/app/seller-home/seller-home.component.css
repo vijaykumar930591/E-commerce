@@ -1,0 +1,39 @@
+.product-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* CSS styles for table headings */
+th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* CSS styles for table data cells */
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* CSS styles for alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.adjust-update-link
+{
+    margin-left: 10px;
+}
+
